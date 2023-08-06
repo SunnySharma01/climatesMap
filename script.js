@@ -2,7 +2,7 @@ let currentCardsArr = [];
 
 let searchBtn = document.querySelector(".container__add-city-btn button");
 searchBtn.addEventListener("click", () => {
-    let apiKey = "0d37d999b4705308cc960c47e35d754d"
+    let apiKey = "147556053c893ad3660a2f5818b27ddf"
     let inputCityName = document.querySelector(".container__search-input input");
     getWeatherDetails(apiKey, inputCityName.value.toLocaleLowerCase().trim());
     inputCityName.value = "";
